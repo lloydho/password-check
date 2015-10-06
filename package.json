@@ -1,0 +1,26 @@
+{
+  "name": "password-check",
+  "version": "1.0.0",
+  "description": "Checks how secure a password is.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lloydho/password-check.git"
+  },
+  "keywords": [
+    "password",
+    "security"
+  ],
+  "author": "Lloyd Ho <lloydho@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lloydho/password-check/issues"
+  },
+  "homepage": "https://github.com/lloydho/password-check#readme",
+  "dependencies": {
+    "bignumber.js": "^2.0.7"
+  }
+}
