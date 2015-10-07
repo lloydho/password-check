@@ -1,10 +1,10 @@
 var ComplexityChecker = require('../passwordCheckers/ComplexityChecker');
 var PasswordQualityEnum = require('../enums/PasswordQualityEnum');
-var assert = require("assert");
+var assert = require('assert');
 var should = require('should');
 
 describe('ComplexityChecker', function() {
-  describe('check', function() {
+  describe('#check', function() {
     it('should return a value within PasswordQualityEnum', function() {
       var result = ComplexityChecker.check('testpassword');
       assert(result === PasswordQualityEnum.UNSAFE || result === PasswordQualityEnum.MODERATE ||
